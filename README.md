@@ -39,8 +39,9 @@ To upload a .pdf file which you want to use, you can simply use gdown and id ref
 ![alt text](https://github.com/CesurMurka/fill-pdf/blob/main/Unted.png)
 
 
-In order to fill .pdf I used fillpdf library 
+In order to fill .pdf I used fillpdf library  https://pypi.org/project/fillpdf/
 ```python
+!pip install fillpdf
 import fillpdf
 ```
 
