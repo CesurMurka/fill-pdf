@@ -45,6 +45,12 @@ In order to fill .pdf I used fillpdf library  https://pypi.org/project/fillpdf/
 import fillpdf
 ```
 
+To download a filled out .pdf
+```python
+from google.colab import files
+files.download(output_pdf_path)
+```
+
 ## **FYI**, if you are interested: 
 This .pdf file contains 60 empty boxes. These boxes are filled from the Google Drive sheets. The boxes represents the radiation dose in Grays. 
 **TSEI (total skin electron irradiation)** technique was used for skin treatment. 
