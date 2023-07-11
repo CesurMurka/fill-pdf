@@ -31,6 +31,11 @@ sheet_name = "YouPutHereTheFileNameofYourGoogleDriveSheet"
 worksheet = gc.open(sheet_name)
 ```
 
+To upload a .pdf file which you want to use, you can simply use gdown and id reference (e.g:) : 
+```python
+! gdown --id 1eWhRtxxxxxxxxxxxx_rPnhN
+```
+
 ## **FYI**, if you are interested: 
 This .pdf file contains 60 empty boxes. These boxes are filled from the Google Drive sheets. The boxes represents the radiation dose in Grays. 
 **TSEI (total skin electron irradiation)** technique was used for skin treatment. 
