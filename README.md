@@ -35,6 +35,14 @@ To upload a .pdf file which you want to use, you can simply use gdown and id ref
 ```python
 ! gdown --id 1eWhRtxxxxxxxxxxxx_rPnhN
 ```
+**How to get an Google Drive File ID?** 
+![alt text](https://github.com/CesurMurka/fill-pdf/blob/main/Unted.png)
+
+
+In order to fill .pdf I used fillpdf library 
+```python
+import fillpdf
+```
 
 ## **FYI**, if you are interested: 
 This .pdf file contains 60 empty boxes. These boxes are filled from the Google Drive sheets. The boxes represents the radiation dose in Grays. 
